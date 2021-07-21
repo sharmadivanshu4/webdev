@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bio-data form</title>
+</head>
+<body >
+    <h1>My Bio Data</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <form>
+            <label for="firstname">First Name:</label><input type="text" name="=First Name" id="firstname" placeholder="First Name" required>
+
+            <label for="lastname">Last Name:</label><input type="text" name="Last Name" placeholder="Last Name" id="lastname" >
+
+            <p>Male<input type="radio" name="gender" > Female<input type="radio" name="gender"> Others<input type="radio" name="gender"> </p>
+
+            <label for="dob">Date of Birth :</label> <input type="date" id="dob" name="date" placeholder="Date of Birth">
+            <br>
+            <br>
+            <label for="email">E-Mail:</label> <input type="email" id="email" name="Email" placeholder="Email">
+            <br>
+            <br>
+            <label for="number">Phone </label> <input type="number" id="number" name="Phone" placeholder="+91" maxlength="10">
+            <br>
+            <br>
+            <label for="height">Height: </label> <input type="number" id="height" name="Height" placeholder="Height in Feet">
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Education</legend>
+        <form>
+            <label for="school">School Name:</label><input type="text" id="school" name="=School Name" placeholder="School Name">
+            <br>
+            <br>
+            <label for="class">Class :</label> <input type="text" id="class" name="Class" placeholder="Class">
+            <br>
+            <p>Stream:
+                <select name="stream">
+                    <option>Stream</option>
+                    <option>Non-Medical</option>
+                    <option>Medical</option>
+                    <option>Arts</option>
+                    <option>Commerse</option>
+                </select>
+            </p>
+            <label for="marksheet">Marksheet :</label> <input type="file" id="marksheet">
+        </form>
+    </fieldset>
+    
+    <br>
+    <form>
+        <input type="submit">
+    </form>
+</body>
+</html>
