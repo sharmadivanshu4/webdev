@@ -1,0 +1,29 @@
+h1{
+    font-size: 3rem;
+    color: #f86624;
+    margin: 40vh 25vw;
+    border: 2px solid white;
+    transition: 1s;
+    text-align:center;
+}
+body{
+    background-color: #242423;
+}
+h1:hover{
+    color: #8ac926;
+    border-color:#8ac926 ;
+    transform: scale(1.5);
+    cursor: pointer;
+    text-shadow: 0 1px 0 #ccff33,
+               0 2px 0 #9ef01a,
+               0 3px 0 #70e000,
+               0 4px 0 #38b000,
+               0 5px 0 #008000,
+               0 6px 1px #007200,
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
